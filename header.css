@@ -12,6 +12,7 @@ header{
 }
 
 .name-h1{
+    color: var(--secondary-text-color);
     text-shadow: 3px 3px var(--main-brand-color);
 }
 
@@ -54,6 +55,7 @@ nav a{
     text-decoration: none;
     position: relative;
     padding: 3px;
+    font-size: 25px;
 }
 
 nav a:hover{

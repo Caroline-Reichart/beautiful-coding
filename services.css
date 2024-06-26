@@ -29,7 +29,11 @@
     gap: 20px;
 }
 
-.card *{text-align: center;} /* spricht alle Kindelemente der Klasse Card an */
+.card *{text-align: center;} 
+
+.card h3{
+    font-size: 30px;
+}
 
 .card a{
     background-color: var(--primary-color);
