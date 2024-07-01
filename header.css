@@ -25,11 +25,6 @@ header{
     padding-bottom: 80px;
 }
 
-/* header p{
-    font-size: 25px;
-    color: var(--secondary-text-color);
-} */
-
 .header-text p{
     text-align: left;
     line-height: 175%;
