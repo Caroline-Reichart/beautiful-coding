@@ -5,19 +5,36 @@ header{
     align-items: center;
     gap: 50px;
     flex-wrap: wrap;
+    background-color: var(--primary-color);
 }
 
 .header-text{
-    width: 850px;
+    width: 60%;
 }
 
 .name-h1{
     color: var(--secondary-text-color);
     text-shadow: 3px 3px var(--main-brand-color);
+    font-size: 80px;
+    padding-bottom: 25px;
 }
 
-h1{
+.webdev{
     text-shadow: 3px 3px black;
+    font-size: 60px;
+    padding-bottom: 80px;
+}
+
+/* header p{
+    font-size: 25px;
+    color: var(--secondary-text-color);
+} */
+
+.header-text p{
+    text-align: left;
+    line-height: 175%;
+    color: var(--secondary-text-color);
+    margin: 15px;
 }
 
 .circle{
@@ -86,7 +103,7 @@ label[for="menu-button"] span{font-size: 40px;}
 
 label[for="menu-button"]{display:none}
 
-@media(max-width:800px){
+@media(max-width:768px){
     nav ul{
         display: none;
         flex-direction: column;
@@ -107,4 +124,19 @@ label[for="menu-button"]{display:none}
         border-radius: 0 0 25px 0;
     }
 
+    .name-h1{
+        font-size: 300%;        
+    }
+
+    .webdev{
+        font-size: 200%;
+        text-align: left;
+        padding-bottom: 30px;
+    }
+
+    .header-text p{
+        font-size: 5vw;
+        text-align: left;
+    }
+    
 }

@@ -1,6 +1,6 @@
 footer{
     padding: 70px 0px;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 
 footer h2{
@@ -28,13 +28,13 @@ footer h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--light-secondary-color);
 }
 
 #item2{
-    background-color: var(--light-secondary-color);
     grid-area: item2;
     flex-direction: column;
-    gap: 10px; 
+    background-color: var(--primary-color);
 }
 
 #item3{
@@ -42,41 +42,36 @@ footer h2{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 10px;
+    font-size: 25px;
+    background-color: var(--light-secondary-color);
 }
 
 #item4{
-    background-color: var(--light-secondary-color);
     grid-area: item4;
     flex-direction: column;
-    gap: 10px;
+    background-color: var(--primary-color);
 }
 
 #item5{
-    border: solid 1px black;
-    /* background-color: linear-gradient(from left to right, var(--primary-color), var(--light-secondary-colorsecondary-color)); */
-    background-color: var(--main-brand-color);
     grid-area: item5;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 50px;
+    background-color: var(--main-brand-color);
 }
 
 .grid_item{
-    background-color: var(--primary-color);
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 50px;
-    gap: 50px; 
     border-radius: 10px;
-    
-}
+ }
 
 .grid_item a{
-   /*  background-color: var(--secondary-color);  */
     color: var(--secondary-text-color);
-    font-size: 25px;
+    font-size: 30px;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -87,19 +82,13 @@ footer h2{
     background: transparent;
 }
 
-/* .item3{
-    display: block; 
-    flex-direction: column;  
-    justify-content: flex-start;
-    align-items: flex-start; 
-    align-self: flex-start;
-    border: 1px solid black;
-    background: transparent !important;
-    position: absolute;
-    bottom: 200px;
-    left: 50px;
+#item5 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 25px;
 }
- */
+
 @media(max-width: 1300px){
     .grid_container{
         grid-template-columns: 1fr 1fr 1fr; 
@@ -111,7 +100,7 @@ footer h2{
     }
 }
 
-@media(max-width: 900px){
+@media(max-width: 768px){
     .grid_container{
         grid-template-columns: 1fr 1fr; 
         grid-template-rows: auto auto auto auto; 
@@ -123,7 +112,7 @@ footer h2{
     }
 }
 
-@media(max-width: 650px){
+@media(max-width: 469px){
     footer h2{
         font-size: 9vw;
     }

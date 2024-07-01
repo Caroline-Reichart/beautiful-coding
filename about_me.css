@@ -25,17 +25,22 @@
 }
 
 .about-me-container p{
-    text-align: justify;
+    text-align: left;
     line-height: 175%;
     color: var(--secondary-text-color);
+    margin: 15px;
 }
 
-@media(max-width: 800px){
+@media(max-width: 768px){
     #about-me-section{
         padding: 50px;
     }
     #about-me-section h2{
         text-align: center;
         font-size: 12vw;
+    }
+    .about-me-container p{
+        font-size: 5vw;
+        text-align: left;
     }
 }
