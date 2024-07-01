@@ -21,6 +21,8 @@
 
 .about-me-container h2{
     font-size: 50px; 
+    text-align: left;
+    margin-left: 20px;
     color: var(--secondary-text-color);
 }
 
