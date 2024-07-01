@@ -24,13 +24,6 @@
     color: var(--secondary-text-color);
 }
 
-.about-me-container p{
-    text-align: left;
-    line-height: 175%;
-    color: var(--secondary-text-color);
-    margin: 15px;
-}
-
 @media(max-width: 768px){
     #about-me-section{
         padding: 50px;

@@ -22,3 +22,10 @@ body{
     color:var(--text-color);
 }
 
+.header-text p,.about-me-container p{
+    font-size: 1.5rem;
+    text-align: left;
+    line-height: 175%;
+    color: var(--secondary-text-color);
+    margin: 15px;
+}
