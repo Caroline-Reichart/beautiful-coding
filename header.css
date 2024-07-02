@@ -122,10 +122,6 @@ label[for="menu-button"]{display:none}
         padding-bottom: 30px;
     }
 
-    header{
-        padding: 80px 15px;
-    }
-
     .header-text p{
         font-size: 5vw;
         text-align: left;
