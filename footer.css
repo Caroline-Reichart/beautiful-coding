@@ -1,5 +1,6 @@
 footer{
     width: 100%;
+    height: auto;
     padding: 70px 0px;
     background-color: var(--primary-color);
 }

@@ -1,4 +1,5 @@
 #about-me-section{
+    height: auto;
     padding: 100px 0;
     background-color: var(--secondary-color);
     display: flex;
@@ -29,6 +30,7 @@
 @media(max-width: 768px){
     #about-me-section{
         padding: 50px;
+        
     }
     #about-me-section h2{
         text-align: center;
